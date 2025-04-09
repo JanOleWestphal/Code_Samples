@@ -1,4 +1,4 @@
-# ifo_Forecast_evaluation
+# Naive Forecaster
 
 This is the baseline version of an ongoing project with the goal of systematicaly evaluating economic forecast performance in Germany.
 
