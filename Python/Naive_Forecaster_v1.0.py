@@ -458,7 +458,7 @@ def index_dict(col, data_index, forecast_qoq, qoq_forecast_index_df):
 
     # Set correct index, adjust to middle of quarter
     last_quarter = data_index[-1]
-    forecast_index = pd.date_range(start=last_quarter, periods= forecast_horizon + 2, freq='QE')[2:]
+    forecast_index = pd.date_range(start=last_quarter, periods= forecast_horizon + 1, freq='QE')[1:]
     forecast_index -= pd.offsets.Day(45)
 
     # Append the forecast date, index and forecast data, merge to df
